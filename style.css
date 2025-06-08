@@ -1,0 +1,149 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+}
+
+header {
+    display: flex;
+    background-color: #ffffff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar {
+    padding: 1rem 0;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #2c3e50 !important;
+    transition: color 0.3s;
+}
+
+.navbar-brand:hover {
+    color: #3498db !important;
+}
+
+.nav-link {
+    font-size: 1.1rem;
+    color: #2c3e50 !important;
+    margin-right: 1rem;
+    transition: color 0.3s;
+}
+
+.nav-link:hover {
+    color: #3498db !important;
+}
+
+.slider img {
+    height: 500px;
+    object-fit: fill ;
+    filter: brightness(80%);
+}
+
+.carousel-caption {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+.carousel-caption h5 {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.carousel-caption p {
+    font-size: 1.2rem;
+}
+
+.featured-products {
+    background-color: #ffffff;
+    padding: 3rem 0;
+}
+
+.featured-products h2 {
+    font-size: 2.5rem;
+    color: #2c3e50;
+    margin-bottom: 2rem;
+    position: relative;
+}
+
+.featured-products h2::after {
+    content: '';
+    width: 50px;
+    height: 3px;
+    background-color: #3498db;
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: fill;
+}
+
+.card-body {
+    padding: 1.5rem;
+    text-align: center;
+}
+
+.card-title {
+    font-size: 1.3rem;
+    color: #2c3e50;
+    margin-bottom: 0.5rem;
+}
+
+.card-text {
+    color: #7f8c8d;
+    margin-bottom: 0.5rem;
+}
+
+.card-text:last-child {
+    font-weight: 700;
+    color: #e74c3c;
+}
+
+footer {
+    background-color: #2c3e50;
+    color:#000000;
+    padding: 2rem 0;
+}
+
+footer p {
+    margin: 0.5rem 0;
+}
+
+footer a {
+    color: #000000;
+    transition: color 0.3s;
+    text-wrap-style: auto;
+}
+
+footer a:hover {
+    color: #3498db;
+}
+
+footer .fab {
+    font-size: 1.5rem;
+    margin: 0 0.5rem;
+}

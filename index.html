@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Tienda Online</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <a class="navbar-brand" href="#">Mi Tienda</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a class="nav-link" href="#inicio">Inicio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#productos">Productos</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+<section class="slider">
+    <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/black-1271449_640.webp" class="d-block w-100" alt="Slide 1">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Oferta Especial</h5>
+                    <p>¡Descuentos de hasta 50% esta semana!</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/canva-post-instagram-nueva-colección-minimalista-blanco-y-negro-fBaTEPRk7Uo.webp" class="d-block w-100" alt="Slide 2">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Nueva Colección</h5>
+                    <p>Descubre nuestros últimos productos.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/diseno-etiqueta-vector-envio-gratis-envio-rapido-insignia-servicio-entrega-gratis-entrega-rapida-servicios-envio-urgente-urgente-movimiento-rapido-servicio-24-7-ilustracion-vectorial_435184-1349.webp" class="d-block w-100" alt="Slide 3">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Envío Gratis</h5>
+                    <p>En compras superiores a $30.000</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        </button>
+    </div>
+</section>
+    <section class="featured-products py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Productos Destacados</h2>
+            <div class="row">
+                <div class="col-md-4 mb-3">
+                    <div class="card">
+                        <img src="img/pantalon.webp" class="card-img-top" alt="Jeans Baggy Cargo Rigido Pantalones De Hombre">
+                        <div class="card-body">
+                            <h5 class="card-title">Jeans Baggy Cargo Rigido Pantalones De Hombre</h5>
+                            <p class="card-text">Pantalos baggy cargo color gris talle 40-48</p>
+                            <p class="card-text">$30.000</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <div class="card">
+                        <img src="img/remera.webp" class="card-img-top" alt="Remera Boxy Fit Hombre Estampado Lateral Negro Wonder Bond">
+                        <div class="card-body">
+                            <h5 class="card-title">Remera Boxy Fit Hombre Estampado Negro</h5>
+                            <p class="card-text">Remera boxy fit negra con estampado talle s m l</p>
+                            <p class="card-text">$8.000</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <div class="card">
+                        <img src="img/buzo.webp" class="card-img-top" alt="Buzo Oversize Hombre Hoodie Blanco Canguro">
+                        <div class="card-body">
+                            <h5 class="card-title">Buzo Oversize Hombre Hoodie Blanco Canguro</h5>
+                            <p class="card-text">Buzo blanco oversize con estampa talle s m l</p>
+                            <p class="card-text">$25.000</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="bg-light text-center py-3">
+        <div class="container">
+            <p>Dirección: Calle Av. Avellaneda 2088, CABA</p>
+            <div>
+                <a href="#" class="me-3"><i class="fab fa-facebook-f"></i>Facebook</a>
+                <a href="#" class="me-3"><i class="fab fa-twitter">Twitter</i></a>
+                <a href="#" class="me-3"><i class="fab fa-instagram"></i>Instagram</a>
+            </div>
+            <p><a href="#">Políticas de Privacidad</a></p>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</body>
+</html>
